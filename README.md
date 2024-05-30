@@ -1,16 +1,16 @@
-# Regex eXplorer (rx)
+# JQ eXplorer (jqx)
 
 #### Instalation
 ```bash
-go install github.com/f01c33/rx@main
+go install github.com/f01c33/jqx@main
 ```
 
 #### Usage
 ```bash
-rx
+cat some.json | jqx
 ```
 
-Press tab to switch between regex and text to match.
+Then you can type your jsonpath, it's based on [gojq](github.com/itchyny/gojq), using [bitfield's script lib](https://github.com/bitfield/script).
 
-#### Example
-![demo.gif](./demo.gif)
+<!-- #### Example
+![demo.gif](./demo.gif) -->
