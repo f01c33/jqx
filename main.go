@@ -16,9 +16,7 @@ import (
 	"github.com/mattn/go-isatty"
 )
 
-var (
-	kwStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("204")).Background(lipgloss.Color("235"))
-)
+var kwStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("204")).Background(lipgloss.Color("235"))
 
 func main() {
 	var data []byte
@@ -51,7 +49,7 @@ func main() {
 
 func beautifyJSON(js string) string {
 	var tmpJSON interface{}
-	json.Unmarshal([]byte(js), &tmpJSON)
+	_ = json.Unmarshal([]byte(js), &tmpJSON)
 	data, _ := json.MarshalIndent(tmpJSON, "", "  ")
 	return string(data)
 }
