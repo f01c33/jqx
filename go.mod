@@ -5,7 +5,7 @@ go 1.22.3
 require (
 	github.com/bitfield/script v0.24.0
 	github.com/charmbracelet/bubbles v0.18.0
-	github.com/charmbracelet/bubbletea v1.3.3
+	github.com/charmbracelet/bubbletea v1.3.4
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/mattn/go-isatty v0.0.20
 )
