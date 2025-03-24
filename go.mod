@@ -3,7 +3,7 @@ module github.com/f01c33/rx
 go 1.22.3
 
 require (
-	github.com/bitfield/script v0.24.0
+	github.com/bitfield/script v0.24.1
 	github.com/charmbracelet/bubbles v0.18.0
 	github.com/charmbracelet/bubbletea v1.3.4
 	github.com/charmbracelet/lipgloss v1.0.0
